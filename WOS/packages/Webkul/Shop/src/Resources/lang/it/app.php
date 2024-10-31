@@ -873,8 +873,11 @@ return [
         ],
 
         'index' => [
-            'offer'               => 'Ottieni FINO AL 40% DI SCONTO sul tuo primo ordine ACQUISTA ORA',
-            'resend-verify-email' => 'Rispedisci l\'email di verifica',
+            'categories-carousel' => 'Carosello delle categorie',
+            'image-carousel'      => 'Carosello delle immagini',
+            'offer'               => 'Ottieni fino al 40% di sconto sul tuo primo ordine, ACQUISTA ORA',
+            'product-carousel'    => 'Carosello dei prodotti',
+            'resend-verify-email' => 'Reinvia l\'email di verifica',
             'verify-email'        => 'Verifica il tuo account email',
         ],
 
@@ -883,7 +886,9 @@ return [
 
     'partials' => [
         'pagination' => [
+            'next-page'          => 'Pagina successiva',
             'pagination-showing' => 'Visualizzazione da :firstItem a :lastItem di :total voci',
+            'prev-page'          => 'Pagina precedente',
         ],
     ],
 

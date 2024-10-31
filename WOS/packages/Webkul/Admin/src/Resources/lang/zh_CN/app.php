@@ -1061,6 +1061,7 @@ return [
                     'date-time'           => '日期时间',
                     'delete'              => '删除',
                     'edit'                => '编辑',
+                    'false'               => '假',
                     'file'                => '文件',
                     'id'                  => '标识',
                     'image'               => '图片',
@@ -1073,6 +1074,7 @@ return [
                     'select'              => '选择',
                     'text'                => '文本',
                     'textarea'            => '文本区域',
+                    'true'                => '真',
                     'type'                => '类型',
                     'unique'              => '唯一',
                 ],
@@ -3462,6 +3464,108 @@ return [
                         'vicuna'            => 'Vicuna',
                     ],
                 ],
+
+                'sitemap' => [
+                    'info'  => '设置站点地图选项。',
+                    'title' => '站点地图',
+
+                    'settings' => [
+                        'enabled' => '启用',
+                        'info'    => '启用或禁用您网站的站点地图，以提高搜索引擎优化并增强用户体验。',
+                        'title'   => '设置',
+                    ],
+
+                    'file-limits' => [
+                        'info'             => '设置文件限制选项。',
+                        'max-file-size'    => '最大文件大小',
+                        'max-url-per-file' => '每个文件的最大 URL 数量',
+                        'title'            => '文件限制',
+                    ],
+
+                    'store-url' => [
+                        'info'  => '设置商店 URL 的频率和优先级选项。',
+
+                        'frequency' => [
+                            'title' => '频率',
+
+                            'options' => [
+                                'always'  => '始终',
+                                'daily'   => '每天',
+                                'hourly'  => '每小时',
+                                'monthly' => '每月',
+                                'never'   => '从不',
+                                'weekly'  => '每周',
+                                'yearly'  => '每年',
+                            ],
+                        ],
+
+                        'title'    => '商店 URL',
+                        'priority' => '优先级',
+                    ],
+
+                    'categories' => [
+                        'info'  => '设置类别的频率和优先级选项。',
+
+                        'frequency' => [
+                            'title' => '频率',
+
+                            'options' => [
+                                'always'  => '始终',
+                                'daily'   => '每天',
+                                'hourly'  => '每小时',
+                                'monthly' => '每月',
+                                'never'   => '从不',
+                                'weekly'  => '每周',
+                                'yearly'  => '每年',
+                            ],
+                        ],
+
+                        'title'    => '类别',
+                        'priority' => '优先级',
+                    ],
+
+                    'products' => [
+                        'info'  => '设置产品的频率和优先级选项。',
+
+                        'frequency' => [
+                            'title' => '频率',
+
+                            'options' => [
+                                'always'  => '始终',
+                                'daily'   => '每天',
+                                'hourly'  => '每小时',
+                                'monthly' => '每月',
+                                'never'   => '从不',
+                                'weekly'  => '每周',
+                                'yearly'  => '每年',
+                            ],
+                        ],
+
+                        'title'    => '产品',
+                        'priority' => '优先级',
+                    ],
+
+                    'cms' => [
+                        'info'  => '设置 CMS 页面的频率和优先级选项。',
+
+                        'frequency' => [
+                            'title' => '频率',
+
+                            'options' => [
+                                'always'  => '始终',
+                                'daily'   => '每天',
+                                'hourly'  => '每小时',
+                                'monthly' => '每月',
+                                'never'   => '从不',
+                                'weekly'  => '每周',
+                                'yearly'  => '每年',
+                            ],
+                        ],
+
+                        'title'    => 'CMS 页面',
+                        'priority' => '优先级',
+                    ],
+                ],
             ],
 
             'catalog' => [
@@ -3923,6 +4027,8 @@ return [
                     ],
 
                     'pdf-print-outs' => [
+                        'footer-text'      => '页脚文字',
+                        'footer-text-info' => '输入将显示在PDF页脚中的文本。',
                         'info'             => 'PDFプリントアウトを設定して、ヘッダーに請求書ID、注文IDを表示し、請求書のロゴを含めます。',
                         'invoice-id-info'  => '請求書ヘッダーに請求書IDを表示するかを設定します。',
                         'invoice-id-title' => 'ヘッダーに請求書IDを表示',

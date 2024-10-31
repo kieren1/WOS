@@ -1061,6 +1061,7 @@ return [
                     'date-time'           => 'Fecha y hora',
                     'delete'              => 'Eliminar',
                     'edit'                => 'Editar',
+                    'false'               => 'Falso',
                     'file'                => 'Archivo',
                     'id'                  => 'ID',
                     'image'               => 'Imagen',
@@ -1073,6 +1074,7 @@ return [
                     'select'              => 'Seleccionar',
                     'text'                => 'Texto',
                     'textarea'            => 'Área de texto',
+                    'true'                => 'Verdadero',
                     'type'                => 'Tipo',
                     'unique'              => 'Único',
                 ],
@@ -3462,6 +3464,108 @@ return [
                         'vicuna'            => 'Vicuña',
                     ],
                 ],
+
+                'sitemap' => [
+                    'info'  => 'Configurar opciones del mapa del sitio.',
+                    'title' => 'Mapa del Sitio',
+
+                    'settings' => [
+                        'enabled' => 'Habilitado',
+                        'info'    => 'Habilitar o deshabilitar el mapa del sitio para su sitio web para mejorar la optimización de motores de búsqueda y mejorar la experiencia del usuario.',
+                        'title'   => 'Configuraciones',
+                    ],
+
+                    'file-limits' => [
+                        'info'             => 'Configurar opciones de límites de archivo.',
+                        'max-file-size'    => 'Tamaño máximo de archivo',
+                        'max-url-per-file' => 'Número máximo de URLs por archivo',
+                        'title'            => 'Límites de Archivo',
+                    ],
+
+                    'store-url' => [
+                        'info'  => 'Configurar opción de frecuencia y prioridad para la URL de la tienda.',
+
+                        'frequency' => [
+                            'title' => 'Frecuencia',
+
+                            'options' => [
+                                'always'  => 'Siempre',
+                                'daily'   => 'Diariamente',
+                                'hourly'  => 'Cada hora',
+                                'monthly' => 'Mensualmente',
+                                'never'   => 'Nunca',
+                                'weekly'  => 'Semanalmente',
+                                'yearly'  => 'Anualmente',
+                            ],
+                        ],
+
+                        'title'    => 'URL de la Tienda',
+                        'priority' => 'Prioridad',
+                    ],
+
+                    'categories' => [
+                        'info'  => 'Configurar opción de frecuencia y prioridad para las categorías.',
+
+                        'frequency' => [
+                            'title' => 'Frecuencia',
+
+                            'options' => [
+                                'always'  => 'Siempre',
+                                'daily'   => 'Diariamente',
+                                'hourly'  => 'Cada hora',
+                                'monthly' => 'Mensualmente',
+                                'never'   => 'Nunca',
+                                'weekly'  => 'Semanalmente',
+                                'yearly'  => 'Anualmente',
+                            ],
+                        ],
+
+                        'title'    => 'Categorías',
+                        'priority' => 'Prioridad',
+                    ],
+
+                    'products' => [
+                        'info'  => 'Configurar opción de frecuencia y prioridad para los productos.',
+
+                        'frequency' => [
+                            'title' => 'Frecuencia',
+
+                            'options' => [
+                                'always'  => 'Siempre',
+                                'daily'   => 'Diariamente',
+                                'hourly'  => 'Cada hora',
+                                'monthly' => 'Mensualmente',
+                                'never'   => 'Nunca',
+                                'weekly'  => 'Semanalmente',
+                                'yearly'  => 'Anualmente',
+                            ],
+                        ],
+
+                        'title'    => 'Productos',
+                        'priority' => 'Prioridad',
+                    ],
+
+                    'cms' => [
+                        'info'  => 'Configurar opción de frecuencia y prioridad para las páginas CMS.',
+
+                        'frequency' => [
+                            'title' => 'Frecuencia',
+
+                            'options' => [
+                                'always'  => 'Siempre',
+                                'daily'   => 'Diariamente',
+                                'hourly'  => 'Cada hora',
+                                'monthly' => 'Mensualmente',
+                                'never'   => 'Nunca',
+                                'weekly'  => 'Semanalmente',
+                                'yearly'  => 'Anualmente',
+                            ],
+                        ],
+
+                        'title'    => 'Páginas CMS',
+                        'priority' => 'Prioridad',
+                    ],
+                ],
             ],
 
             'catalog' => [
@@ -3923,6 +4027,8 @@ return [
                     ],
 
                     'pdf-print-outs' => [
+                        'footer-text'      => 'Texto de pie de página',
+                        'footer-text-info' => 'Introduce el texto que aparecerá en el pie de página del PDF.',
                         'info'             => 'Configurar las impresiones en PDF para mostrar el ID de la factura, el ID del pedido en el encabezado e incluir el logotipo de la factura.',
                         'invoice-id-info'  => 'Configurar la visualización del ID de la factura en el encabezado de la factura.',
                         'invoice-id-title' => 'Mostrar ID de factura en el encabezado',

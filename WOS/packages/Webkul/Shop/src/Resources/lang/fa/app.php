@@ -873,8 +873,11 @@ return [
         ],
 
         'index' => [
-            'offer'               => 'تا ۴۰٪ تخفیف برای سفارش اولتان دریافت کنید. همین الان خرید کنید',
-            'resend-verify-email' => 'ارسال مجدد ایمیل تأیید',
+            'categories-carousel' => 'چرخ فلک دسته‌ها',
+            'image-carousel'      => 'چرخ فلک تصاویر',
+            'offer'               => 'تا ۴۰% تخفیف برای سفارش اول شما، اکنون خرید کنید',
+            'product-carousel'    => 'چرخ فلک محصولات',
+            'resend-verify-email' => 'ارسال دوباره ایمیل تایید',
             'verify-email'        => 'ایمیل خود را تأیید کنید',
         ],
 
@@ -883,7 +886,10 @@ return [
 
     'partials' => [
         'pagination' => [
+            'next-page'          => 'صفحه بعدی',
             'pagination-showing' => 'نمایش :firstItem تا :lastItem از مجموع :total مورد',
+            'prev-page'          => 'صفحه قبلی',
+
         ],
     ],
 

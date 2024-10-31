@@ -1061,6 +1061,7 @@ return [
                     'date-time'           => 'Data e ora',
                     'delete'              => 'Elimina',
                     'edit'                => 'Modifica',
+                    'false'               => 'Falso',
                     'file'                => 'File',
                     'id'                  => 'ID',
                     'image'               => 'Immagine',
@@ -1073,6 +1074,7 @@ return [
                     'select'              => 'Seleziona',
                     'text'                => 'Testo',
                     'textarea'            => 'Area di testo',
+                    'true'                => 'Vero',
                     'type'                => 'Tipo',
                     'unique'              => 'Unico',
                 ],
@@ -3462,6 +3464,108 @@ return [
                         'vicuna'            => 'Vicuna',
                     ],
                 ],
+
+                'sitemap' => [
+                    'info'  => 'Impostare le opzioni della mappa del sito.',
+                    'title' => 'Mappa del Sito',
+
+                    'settings' => [
+                        'enabled' => 'Abilitato',
+                        'info'    => 'Abilita o disabilita la mappa del sito per il tuo sito web per migliorare l\'ottimizzazione dei motori di ricerca e migliorare l\'esperienza dell\'utente.',
+                        'title'   => 'Impostazioni',
+                    ],
+
+                    'file-limits' => [
+                        'info'             => 'Impostare le opzioni dei limiti di file.',
+                        'max-file-size'    => 'Dimensione massima del file',
+                        'max-url-per-file' => 'Numero massimo di URL per file',
+                        'title'            => 'Limiti dei File',
+                    ],
+
+                    'store-url' => [
+                        'info'  => 'Impostare l\'opzione di frequenza e priorità per l\'URL del negozio.',
+
+                        'frequency' => [
+                            'title' => 'Frequenza',
+
+                            'options' => [
+                                'always'  => 'Sempre',
+                                'daily'   => 'Giornaliero',
+                                'hourly'  => 'Ogni ora',
+                                'monthly' => 'Mensile',
+                                'never'   => 'Mai',
+                                'weekly'  => 'Settimanale',
+                                'yearly'  => 'Annuale',
+                            ],
+                        ],
+
+                        'title'    => 'URL del Negozio',
+                        'priority' => 'Priorità',
+                    ],
+
+                    'categories' => [
+                        'info'  => 'Impostare l\'opzione di frequenza e priorità per le categorie.',
+
+                        'frequency' => [
+                            'title' => 'Frequenza',
+
+                            'options' => [
+                                'always'  => 'Sempre',
+                                'daily'   => 'Giornaliero',
+                                'hourly'  => 'Ogni ora',
+                                'monthly' => 'Mensile',
+                                'never'   => 'Mai',
+                                'weekly'  => 'Settimanale',
+                                'yearly'  => 'Annuale',
+                            ],
+                        ],
+
+                        'title'    => 'Categorie',
+                        'priority' => 'Priorità',
+                    ],
+
+                    'products' => [
+                        'info'  => 'Impostare l\'opzione di frequenza e priorità per i prodotti.',
+
+                        'frequency' => [
+                            'title' => 'Frequenza',
+
+                            'options' => [
+                                'always'  => 'Sempre',
+                                'daily'   => 'Giornaliero',
+                                'hourly'  => 'Ogni ora',
+                                'monthly' => 'Mensile',
+                                'never'   => 'Mai',
+                                'weekly'  => 'Settimanale',
+                                'yearly'  => 'Annuale',
+                            ],
+                        ],
+
+                        'title'    => 'Prodotti',
+                        'priority' => 'Priorità',
+                    ],
+
+                    'cms' => [
+                        'info'  => 'Impostare l\'opzione di frequenza e priorità per le pagine CMS.',
+
+                        'frequency' => [
+                            'title' => 'Frequenza',
+
+                            'options' => [
+                                'always'  => 'Sempre',
+                                'daily'   => 'Giornaliero',
+                                'hourly'  => 'Ogni ora',
+                                'monthly' => 'Mensile',
+                                'never'   => 'Mai',
+                                'weekly'  => 'Settimanale',
+                                'yearly'  => 'Annuale',
+                            ],
+                        ],
+
+                        'title'    => 'Pagine CMS',
+                        'priority' => 'Priorità',
+                    ],
+                ],
             ],
 
             'catalog' => [
@@ -3923,6 +4027,8 @@ return [
                     ],
 
                     'pdf-print-outs' => [
+                        'footer-text'      => 'Testo del piè di pagina',
+                        'footer-text-info' => 'Inserisci il testo che apparirà nel piè di pagina del PDF.',
                         'info'             => 'Configura le Stampe PDF per visualizzare l\'ID Fattura, l\'ID Ordine nell\'intestazione e includere il logo della fattura.',
                         'invoice-id-info'  => 'Configura la visualizzazione dell\'ID Fattura nell\'Intestazione della Fattura.',
                         'invoice-id-title' => 'Visualizza ID Fattura nell\'Intestazione',

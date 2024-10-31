@@ -1061,6 +1061,7 @@ return [
                     'date-time'           => '日付と時刻',
                     'delete'              => '削除',
                     'edit'                => '編集',
+                    'false'               => '偽',
                     'file'                => 'ファイル',
                     'id'                  => 'ID',
                     'image'               => '画像',
@@ -1073,6 +1074,7 @@ return [
                     'select'              => '選択',
                     'text'                => 'テキスト',
                     'textarea'            => 'テキストエリア',
+                    'true'                => '真実',
                     'type'                => 'タイプ',
                     'unique'              => 'ユニーク',
                 ],
@@ -3462,6 +3464,108 @@ return [
                         'vicuna'            => 'ビクーニャ',
                     ],
                 ],
+
+                'sitemap' => [
+                    'info'  => 'サイトマップのオプションを設定します。',
+                    'title' => 'サイトマップ',
+
+                    'settings' => [
+                        'enabled' => '有効',
+                        'info'    => 'サイトマップを有効または無効にして、検索エンジン最適化を改善し、ユーザーエクスペリエンスを向上させます。',
+                        'title'   => '設定',
+                    ],
+
+                    'file-limits' => [
+                        'info'             => 'ファイル制限オプションを設定します。',
+                        'max-file-size'    => '最大ファイルサイズ',
+                        'max-url-per-file' => 'ファイルあたりの最大URL数',
+                        'title'            => 'ファイル制限',
+                    ],
+
+                    'store-url' => [
+                        'info'  => 'ストアURLの頻度と優先順位のオプションを設定します。',
+
+                        'frequency' => [
+                            'title' => '頻度',
+
+                            'options' => [
+                                'always'  => '常に',
+                                'daily'   => '毎日',
+                                'hourly'  => '毎時',
+                                'monthly' => '毎月',
+                                'never'   => '決してない',
+                                'weekly'  => '毎週',
+                                'yearly'  => '毎年',
+                            ],
+                        ],
+
+                        'title'    => 'ストアURL',
+                        'priority' => '優先順位',
+                    ],
+
+                    'categories' => [
+                        'info'  => 'カテゴリーの頻度と優先順位のオプションを設定します。',
+
+                        'frequency' => [
+                            'title' => '頻度',
+
+                            'options' => [
+                                'always'  => '常に',
+                                'daily'   => '毎日',
+                                'hourly'  => '毎時',
+                                'monthly' => '毎月',
+                                'never'   => '決してない',
+                                'weekly'  => '毎週',
+                                'yearly'  => '毎年',
+                            ],
+                        ],
+
+                        'title'    => 'カテゴリー',
+                        'priority' => '優先順位',
+                    ],
+
+                    'products' => [
+                        'info'  => '製品の頻度と優先順位のオプションを設定します。',
+
+                        'frequency' => [
+                            'title' => '頻度',
+
+                            'options' => [
+                                'always'  => '常に',
+                                'daily'   => '毎日',
+                                'hourly'  => '毎時',
+                                'monthly' => '毎月',
+                                'never'   => '決してない',
+                                'weekly'  => '毎週',
+                                'yearly'  => '毎年',
+                            ],
+                        ],
+
+                        'title'    => '製品',
+                        'priority' => '優先順位',
+                    ],
+
+                    'cms' => [
+                        'info'  => 'CMSページの頻度と優先順位のオプションを設定します。',
+
+                        'frequency' => [
+                            'title' => '頻度',
+
+                            'options' => [
+                                'always'  => '常に',
+                                'daily'   => '毎日',
+                                'hourly'  => '毎時',
+                                'monthly' => '毎月',
+                                'never'   => '決してない',
+                                'weekly'  => '毎週',
+                                'yearly'  => '毎年',
+                            ],
+                        ],
+
+                        'title'    => 'CMSページ',
+                        'priority' => '優先順位',
+                    ],
+                ],
             ],
 
             'catalog' => [
@@ -3923,6 +4027,8 @@ return [
                     ],
 
                     'pdf-print-outs' => [
+                        'footer-text'      => 'フッターテキスト',
+                        'footer-text-info' => 'PDFのフッターに表示されるテキストを入力してください。',
                         'info'             => 'PDF印刷アウトを設定して、ヘッダーに請求書ID、注文IDを表示し、請求書のロゴを含めます。',
                         'invoice-id-info'  => '請求書ヘッダーに請求書IDを表示するように設定します。',
                         'invoice-id-title' => 'ヘッダーに請求書IDを表示',
